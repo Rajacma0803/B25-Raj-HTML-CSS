@@ -1,0 +1,589 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FEFCFB;
+    font-family: "Poppins" , sans-serif;
+  }
+  .Btn1{
+    padding: 8px 36px;
+    background-color: #FA7436;
+    border-radius: 5px;
+    border-color: #FA7436;
+    color: #FFFFFF;
+    font-family:"poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 10px 10px;
+    box-shadow: #FA7436;
+    text-decoration: none;
+  }
+  .Btn2{
+    padding: 8px 20px;
+    border-color: #FA7436;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #FA7436;
+    font-family:"poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+.header {
+    position: relative;
+    left: 210px;
+    right: 90px;
+    align-items: center;
+    justify-content: center; 
+    padding: 5px;
+    width: 100%;
+    height: 699px;
+}
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 11%;
+    width: 61%;
+    padding: 0px 10px;
+}
+.logo {
+    display: flex;
+    gap:10px; 
+    align-items: center;
+    width: 10px;
+}
+.trabook {
+    font-family: "volkhov", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    text-shadow: 2px 3px 2px #222222;
+}
+.Vector {
+    width: 50px;
+    height: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#222222;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    list-style: none;
+    gap: 20px;  
+}
+start {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.login{
+    text-decoration: none;
+    color: #FA7436;
+    font-family:"poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+intro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+content{
+    margin: 15px 0px;
+    width: 27%;
+    height: 48%;
+    position:relative;
+    top: 25px;
+    padding: 5px;
+}
+span {
+    color:#FA7436;
+}
+h1{
+    font-family: "volkhov", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #222222;
+}
+p{
+    padding: 30px 0px 60px 0;
+    font-family: "poppins", sans-serif;
+    font-size: 13px;
+    color: #666666;
+}
+.Elips4{
+    height: 210px;
+    width: 85%;
+}
+.Ellipse4{
+    position: relative;
+    top: 220px;
+    left: 30px;
+}
+.Vector-Air{
+    padding: 15px;
+    position: relative;
+    bottom: 245px;
+    right: 10%;
+}
+.Air{
+    width: 120%;
+    height: 20vh;
+}
+.tourist{
+    width: 33%;
+    height: 60vh;
+    position: absolute;
+    top: 120px;
+    right: 480px;
+    
+}
+.card-1{
+    width: 17%;
+    height: 16vh;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    
+}
+.card-2{
+    width: 17%;
+    height: 16vh;
+    position: absolute;
+    top: 260px;
+    right: 420px;
+   
+}
+.card-3{
+    width: 17%;
+    height: 16vh;
+    position: absolute;
+    top: 340px;
+    
+}
+
+search-Bar{
+    display: flex;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    justify-content: space-between;
+
+}
+Things{
+    position: relative;
+    left: 210px;
+    right: 90px;
+    padding: 5px; 
+    background-color: #F7F8FC;
+}
+.content1{
+    padding: 5px;
+    width: 100%;
+    
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 50%;
+    position: relative;
+    left: 170px;
+}
+.to-do{
+    width: 500px;
+    font-size: 17;
+}
+.pera{
+
+    text-align: center;
+    width: 390px;
+    font-size: 14px;
+}
+.Air2{
+    position: relative;
+    width: 150px;
+    bottom: 190px;
+    left: 760px;
+}
+.content3{
+   position: relative;
+}
+.container img{
+    width: 350px;
+}
+.container{
+    width: 80%;
+   display: flex;
+   position: relative;
+   justify-content:center;
+   z-index: 1;
+   right: 50px;
+   bottom: 200px;
+}
+.content4{
+    display: flex;
+    
+}
+.pera1{
+    width: 240px;
+    text-align: left;
+    color: #666666;
+}
+.Child{
+    z-index: 2;
+    position: absolute;
+    bottom: 430px;
+    right: 1090px;
+} 
+.Child1{
+    z-index: 2;
+    position: absolute;
+    right: 740px;
+    bottom: 430px;
+}
+.Child2{
+    z-index: 2;
+    position: relative;
+    left: 720px;
+    bottom: 430px;
+}
+deal{
+    position: relative;
+    left: 180px;
+    bottom: 200px;
+    padding: 5px; 
+    background-color:#FEFCFB;
+}
+.section{
+    padding: 5px;
+    width: 100%;
+    background-color:#FEFCFB;
+}
+.Exclusive{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    width: 70%;   
+}
+.Exclusive p{
+    width: 32%;
+    position: relative;
+    left: 100px;
+}
+
+.image-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Exclusive_card{
+    width: 215px;
+    display: flex;
+}
+.Hover{
+    position: absolute;
+    width: 214px;
+    left: 240px;
+    bottom: 248px;
+}
+.arrow{
+    padding: 60px 430px;
+}
+plan{
+    position: relative;
+    left: 210px;
+    right: 90px;
+    width: 100%;
+    background-color: #FEFCFB;
+} 
+
+.vacation{
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+.plan_content{
+    text-align: center;
+    justify-items: center;
+
+}
+.pera3{
+    text-align:center;
+    margin: 0px 40px;
+    width: 480px;
+    font-size: 15px;
+}
+.tree{
+    display: flex;
+    position: relative;
+    bottom: 180px;
+    left: 660px;
+}
+.arrow2{
+    width: 200%;
+    left: 400px;
+}
+.vacation_card{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 20px;
+   
+}
+.Vcard{
+    width: 280px; 
+    margin-top: 2%;
+}
+.review{
+    width: 100%;
+    height: 87vh;
+    margin-top: 100px;
+    background-color: #ebecf7;     
+}
+.Review_content{
+    position: relative;
+    top: 100px;
+    left: 180px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;    
+}
+.Review_left{
+    justify-content:baseline;
+    align-items:baseline;
+    width: 30%;
+
+}
+.Review_left h1{
+    font-size: 50px;
+    font-family: "volkhov", sans-serif;  
+}
+.Review_left p{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+.Review_right{
+    justify-content: start;
+    width: 40%; 
+    padding-left: 120PX;   
+}
+.rev_card1{
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    width: 63%;
+    height: 32vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px white;
+    z-index: 2;
+}
+.rev_card2{
+    padding: 70px 0px 0px 0px;
+    width: 30%;
+    background-color: rgb(233, 242, 247);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px  rgb(255, 255, 255);
+    position:absolute;
+    top: 205px;
+    left: 580px;
+    z-index: 1;
+}
+.man{
+    position: absolute;
+    bottom: 465px;
+    left: 470px;
+    z-index: 3;
+}
+.last_Air{
+    position: relative;
+    bottom: 320px;
+    left: 400px;
+}
+blog{
+    padding: 5px;
+    margin: 2px;
+    
+}
+.blog_container{
+    padding: 5px; 
+    background-color: #F7F8FC;
+    
+}
+.blog_container div{
+    margin: 20px;
+    text-align: center;
+}
+
+.blog_cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 170px;
+    width: 70%; 
+    justify-content:center;
+    align-content: center;  
+}
+.blog-pic{
+    width: 180px;
+    height: 170px;
+}
+.blog_cards div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.blog_cards div p{
+    text-align:start;
+    width: 180px;   
+}
+.Slide{
+
+    padding: 0px 600px 100px 630px;
+}
+footer{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background: #F7F8FC;
+}
+subscribe{
+   width: 100%;
+   height: 200px;
+}
+.Top{
+    position: relative;
+    bottom: 240PX;
+    left: 260px;
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FA7436;
+}
+.tree{
+    position: absolute;
+    bottom: 215px;
+    left: 690px;
+}
+
+.tree img{
+
+}
+.cercle{
+    width: 300px;
+}
+.Top h1{
+    margin: 140px;
+    font-size: 30px;
+    font-weight: 40;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    width: 400px;
+}
+subscribe .F-up form label{
+    padding: 13px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 4130px;
+    left: 450px;
+    z-index: 2;
+}
+subscribe .F-up form button{
+    position: absolute;
+    background-color: #FA7436;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    border-color: #FA7436;
+    z-index: 3;
+    left: 840px;
+    color: #ebecf7; 
+    top: 4132px;
+}
+.cercle{
+    position: absolute;
+    z-index: 1;
+    color: #ebecf7;
+    bottom: 000px;
+}
+.Bottom{
+    gap: 30px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%,70%;
+}
+.F-left{
+    top: 200px;
+    margin-left: 200px;
+    justify-content: start;
+}
+.F-logo{
+    display: flex;
+    gap: 5px;
+}
+.F-logo img{
+    width: 20px;
+    height: 30px;
+    padding: 10px;
+}
+.book{
+    width: 200px;
+}
+.social{
+    margin: 5px 0px;
+}
+.fa-brands{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.F-right{
+    margin:0px 100px;
+    display: flex;    
+}
+.non{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color:#222222;
+    display: flex;
+    align-self:center;
+    justify-self:last baseline;
+    margin: 0px 40px;
+    list-style: none;  
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0px,50px;
+    margin-left: 100px;
+}
